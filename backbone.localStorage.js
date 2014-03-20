@@ -129,7 +129,7 @@ extend(Backbone.LocalStorage.prototype, {
   },
 
   localStorage: function() {
-    return localStorage;
+    return getStorage();
   },
 
   // Clear localStorage for specific collection.
